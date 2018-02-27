@@ -16,12 +16,12 @@
 </head>
 <body <?php body_class(); ?>>
 
-<nav>
+<nav class="flex items-center justify-between p-6">
 	<div>
 		<a href="<?php echo site_url(); ?>" aria-label="<?php echo bloginfo( 'name' ); ?>" title="<?php echo bloginfo( 'name' ); ?>">
 			<?php echo bloginfo( 'name' ); ?>
 		</a>
-		<button data-target="primary-nav">
+		<button data-target="primary-menu">
 			<span></span>
 			<span></span>
 			<span></span>
@@ -34,7 +34,7 @@
 				'menu_class'      => 'navbar-end',
 				'container'       => 'div',
 				'container_class' => 'navbar-menu',
-				'container_id'    => 'primary-nav'
+				'container_id'    => 'primary-menu'
 			] );
 		}
 	?>

@@ -1,0 +1,22 @@
+////
+/// Navigaton.
+/// Apply navigation styles.
+////
+
+#primary-menu {
+	ul {
+		@apply .list-reset .flex;
+	}
+
+	.menu-item {
+		@apply .mr-6;
+
+		a {
+			@apply .text-blue;
+
+			&:hover {
+				@apply .text-blue-darker;
+			}
+		}
+	}
+}

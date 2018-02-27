@@ -22,8 +22,8 @@ module.exports = {
 				fallback: 'style-loader',
 				use: [
 				{ loader: 'css-loader', options: { importLoaders: 1, minimize: true } },
-				'sass-loader',
-				'postcss-loader'
+				'postcss-loader',
+				'sass-loader'
 				]
 		  })
 		},

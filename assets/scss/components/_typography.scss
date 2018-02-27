@@ -1,0 +1,56 @@
+////
+/// Typography.
+/// Apply typography styles.
+////
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	@apply mb-4;
+}
+
+h1 {
+	@apply .text-5xl;
+}
+
+h2 {
+	@apply .text-4xl;
+}
+
+h3 {
+	@apply .text-3xl;
+}
+
+h4 {
+	@apply .text-2xl;
+}
+
+h5 {
+	@apply .text-xl;
+}
+
+h6 {
+	@apply .text-base;
+}
+
+table {
+	@apply .w-full .bg-white .mb-4;
+	border-collapse: collapse;
+
+	tr {
+		@apply .border-solid .border-grey .border .p-0 .m-0;
+
+		&:nth-child(even) {
+			@apply .bg-grey;
+		}
+	}
+
+	td,
+	th {
+		@apply .border-solid .border-grey .border-r .p-2;
+	}
+}
